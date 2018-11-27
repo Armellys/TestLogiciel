@@ -1,4 +1,29 @@
 
+[0m[0m
+[0m  Array[0m
+[0m    #indexOf()[0m
+    [32m  ✓[0m[90m should return -1 when the value is not present[0m
 
-[92m [0m[32m 0 passing[0m[90m (3ms)[0m
+[0m  MesTests[0m
+[0m    Pair[0m
+    [32m  ✓[0m[90m EXPECT : return false si nombre 3 impaire[0m
+    [32m  ✓[0m[90m EXPECT : return true si nombre 6 paire[0m
+    [32m  ✓[0m[90m ASSERT : return true si nombre 4 pair[0m
+    [32m  ✓[0m[90m ASSERT : return false si nombre -1 impaire[0m
+    [32m  ✓[0m[90m ASSERT : return true si nombre 0 paire[0m
+    [32m  ✓[0m[90m ASSERT : return true si nombre -20 paire[0m
+[0m    Bonjour[0m
+    [32m  ✓[0m[90m EXPECT : Bonjour, Adèle[0m
+    [32m  ✓[0m[90m ASSERT : Bonjour, Bob[0m
+    [32m  ✓[0m[90m ASSERT : vérification ?[0m
+    [32m  ✓[0m[90m ASSERT : vérification §[0m
+    [32m  ✓[0m[90m ASSERT : vérification chiffre[0m
+[0m    Sécu[0m
+    [32m  ✓[0m[90m EXPECT : numéro de sécu valide[0m
+    [32m  ✓[0m[90m EXPECT : numéro de sécu invalide[0m
+    [32m  ✓[0m[90m ASSERT : numéro sécu valide[0m
+    [32m  ✓[0m[90m ASSERT : numéro sécu invalide[0m
+
+
+[92m [0m[32m 16 passing[0m[90m (48ms)[0m
 
