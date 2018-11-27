@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+         colors="true"
+         >
+   <php>
+        <env name="CHAMPS" value="15"/>
+        <env name="NBPONEY" value="8"/>
+   </php>
+
+   <testsuites>
+        <testsuite name="Poney Test">
+            <file>./tests/PoneysTest.php</file>
+        </testsuite>
+
+        <testsuite name="Un Test">
+            <file>./tests/UnTest.php</file>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="junit" target="./log/logfile.xml"/>
+    </logging>    
+</phpunit>
