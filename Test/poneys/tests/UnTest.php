@@ -1,7 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
-require_once './src/Poneys.php';
+require_once './Test/poneys/src/Poneys.php';
 
 /**
  * Classe de test de gestion de poneys
